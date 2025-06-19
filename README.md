@@ -25,4 +25,12 @@ The breathing sensor was sewn into an elastic waistband in a zig-zag pattern to 
 ### Observations:
 Below are examples of the voltage waveform and analogue values captured during testing:
 ![image](https://github.com/user-attachments/assets/8bf0925b-8798-416f-9532-6d9d8db9338b)
+| Test ID/Test Item  | Method/Description | Expected Outcome | Pass/Fail | Evidence |
+| -------- | ------- | ------- | ------- | ------- |
+| 1.Low BPM Warning   |  Simulate slow breathing to reduce BOM below threshold  |LED permanently ON; Output a warning message| Pass | Fig.5|
+| 2.Normal Breathing LED Blink |  Regular breathing at around 12 BPM;   |Correct rate displayed; LED Blinks with each breath |Pass|Fig.6|
+|  3.High BPM Warning   | Simulink high BPM beyond threshold |LED permanently ON; Output a warning message|Pass|Fig.7
+
+## Reference
+* Autodesk (2025), DIY Breath Sensor With Arduino (Conductive Knitted Stretch Sensor). Available at: https://www.instructables.com/DIY-Breath-Sensor-with-Arduino-Conductive-Knitted-/ (Accessed: 28th February 2025)
 
